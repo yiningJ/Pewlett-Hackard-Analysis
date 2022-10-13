@@ -31,7 +31,6 @@ ORDER BY COUNT(title) DESC;
 select* from retiring_titles;
 
 --Deliverable 2
-drop table mentorship_eligibility;
 SELECT DISTINCT ON(e.emp_no)e.emp_no,
 	e.first_name,
 	e.last_name,
